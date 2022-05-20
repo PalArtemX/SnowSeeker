@@ -14,7 +14,7 @@ struct HomeView: View {
         NavigationView {
             List(resorts) { resort in
                 NavigationLink {
-                    Text(resort.name)
+                    ResortView(resort: resort)
                 } label: {
                     ResortRowView(resort: resort)
                 }
@@ -23,6 +23,7 @@ struct HomeView: View {
             
             WelcomeView()
         }
+        .phoneOnlyNavigationView()
     }
 }
 
