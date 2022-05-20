@@ -116,10 +116,7 @@
 			children = (
 				F81C180B2837B01100099151 /* HomeView.swift */,
 				F81C18152837BD6900099151 /* ResortView.swift */,
-				F81C18172837BFC400099151 /* SkiDetailsView.swift */,
-				F81C18192837C11600099151 /* ResortDetailsView.swift */,
-				F81C18112837B6BB00099151 /* WelcomeView.swift */,
-				F81C180D2837B26700099151 /* ResortRowView.swift */,
+				F81C181D2837E14200099151 /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +135,17 @@
 				F81C18132837B83B00099151 /* View.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F81C181D2837E14200099151 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F81C18172837BFC400099151 /* SkiDetailsView.swift */,
+				F81C18192837C11600099151 /* ResortDetailsView.swift */,
+				F81C18112837B6BB00099151 /* WelcomeView.swift */,
+				F81C180D2837B26700099151 /* ResortRowView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

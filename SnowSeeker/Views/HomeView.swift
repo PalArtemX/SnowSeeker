@@ -22,6 +22,7 @@ struct HomeView: View {
             .navigationTitle("Resorts")
             .searchable(text: $vm.searchText)
             
+            // for iPad
             WelcomeView()
         }
         .phoneOnlyNavigationView()
