@@ -11,6 +11,7 @@
 		F81C17F32837AA8B00099151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C17F22837AA8B00099151 /* ContentView.swift */; };
 		F81C17F52837AA8C00099151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81C17F42837AA8C00099151 /* Assets.xcassets */; };
 		F81C17F82837AA8C00099151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81C17F72837AA8C00099151 /* Preview Assets.xcassets */; };
+		F81C18022837AAD400099151 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F81C18012837AAD400099151 /* resorts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F81C17F22837AA8B00099151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F81C17F42837AA8C00099151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F81C17F72837AA8C00099151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F81C18012837AAD400099151 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,10 @@
 			children = (
 				F81C17F02837AA8B00099151 /* SnowSeekerApp.swift */,
 				F81C17F22837AA8B00099151 /* ContentView.swift */,
+				F81C18002837AABD00099151 /* Views */,
+				F81C17FF2837AAA800099151 /* ViewModels */,
+				F81C17FE2837AAA000099151 /* Models */,
+				F81C18012837AAD400099151 /* resorts.json */,
 				F81C17F42837AA8C00099151 /* Assets.xcassets */,
 				F81C17F62837AA8C00099151 /* Preview Content */,
 			);
@@ -65,6 +71,27 @@
 				F81C17F72837AA8C00099151 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F81C17FE2837AAA000099151 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F81C17FF2837AAA800099151 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F81C18002837AABD00099151 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81C18022837AAD400099151 /* resorts.json in Resources */,
 				F81C17F82837AA8C00099151 /* Preview Assets.xcassets in Resources */,
 				F81C17F52837AA8C00099151 /* Assets.xcassets in Resources */,
 			);
