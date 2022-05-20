@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
-    let resorts: [Resort] = Bundle.main.decode("resorts.json")
+    @EnvironmentObject var vm: ResortViewModel
     
     var body: some View {
         NavigationView {
-            List(resorts) { resort in
+            List(vm.filteredResorts()) { resort in
                 NavigationLink {
                     ResortView(resort: resort)
                 } label: {
@@ -20,6 +20,7 @@ struct HomeView: View {
                 }
             }
             .navigationTitle("Resorts")
+            .searchable(text: $vm.searchText)
             
             WelcomeView()
         }
@@ -39,5 +40,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(ResortViewModel())
     }
 }
