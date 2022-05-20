@@ -20,4 +20,6 @@ struct Resort: Identifiable, Codable {
     let elevation: Int
     let runs: Int
     let facilities: [String]
+    
+    
 }

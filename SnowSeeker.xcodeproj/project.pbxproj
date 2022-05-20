@@ -13,7 +13,7 @@
 		F81C17F82837AA8C00099151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81C17F72837AA8C00099151 /* Preview Assets.xcassets */; };
 		F81C18022837AAD400099151 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F81C18012837AAD400099151 /* resorts.json */; };
 		F81C18042837ABF100099151 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18032837ABF100099151 /* Resort.swift */; };
-		F81C18072837AD7000099151 /* BundleDecodsble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18062837AD7000099151 /* BundleDecodsble.swift */; };
+		F81C180A2837AEEF00099151 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18092837AEEF00099151 /* Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		F81C17F72837AA8C00099151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F81C18012837AAD400099151 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		F81C18032837ABF100099151 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
-		F81C18062837AD7000099151 /* BundleDecodsble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodsble.swift; sourceTree = "<group>"; };
+		F81C18092837AEEF00099151 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 				F81C17FF2837AAA800099151 /* ViewModels */,
 				F81C17FE2837AAA000099151 /* Models */,
 				F81C18052837AD4B00099151 /* Utilites */,
+				F81C18082837AED300099151 /* Extensions */,
 				F81C18012837AAD400099151 /* resorts.json */,
 				F81C17F42837AA8C00099151 /* Assets.xcassets */,
 				F81C17F62837AA8C00099151 /* Preview Content */,
@@ -103,9 +104,16 @@
 		F81C18052837AD4B00099151 /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
-				F81C18062837AD7000099151 /* BundleDecodsble.swift */,
 			);
 			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F81C18082837AED300099151 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F81C18092837AEEF00099151 /* Bundle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +190,7 @@
 				F81C17F32837AA8B00099151 /* ContentView.swift in Sources */,
 				F81C18042837ABF100099151 /* Resort.swift in Sources */,
 				F81C17F12837AA8B00099151 /* SnowSeekerApp.swift in Sources */,
-				F81C18072837AD7000099151 /* BundleDecodsble.swift in Sources */,
+				F81C180A2837AEEF00099151 /* Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
