@@ -15,7 +15,7 @@
 		F81C180A2837AEEF00099151 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18092837AEEF00099151 /* Bundle.swift */; };
 		F81C180C2837B01100099151 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C180B2837B01100099151 /* HomeView.swift */; };
 		F81C180E2837B26700099151 /* ResortRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C180D2837B26700099151 /* ResortRowView.swift */; };
-		F81C18102837B28900099151 /* Prewiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C180F2837B28900099151 /* Prewiew.swift */; };
+		F81C18102837B28900099151 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C180F2837B28900099151 /* Preview.swift */; };
 		F81C18122837B6BB00099151 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18112837B6BB00099151 /* WelcomeView.swift */; };
 		F81C18142837B83B00099151 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18132837B83B00099151 /* View.swift */; };
 		F81C18162837BD6900099151 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C18152837BD6900099151 /* ResortView.swift */; };
@@ -34,7 +34,7 @@
 		F81C18092837AEEF00099151 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		F81C180B2837B01100099151 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F81C180D2837B26700099151 /* ResortRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortRowView.swift; sourceTree = "<group>"; };
-		F81C180F2837B28900099151 /* Prewiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prewiew.swift; sourceTree = "<group>"; };
+		F81C180F2837B28900099151 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		F81C18112837B6BB00099151 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F81C18132837B83B00099151 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		F81C18152837BD6900099151 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F81C17F72837AA8C00099151 /* Preview Assets.xcassets */,
-				F81C180F2837B28900099151 /* Prewiew.swift */,
+				F81C180F2837B28900099151 /* Preview.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 				F81C181A2837C11600099151 /* ResortDetailsView.swift in Sources */,
 				F81C18162837BD6900099151 /* ResortView.swift in Sources */,
 				F81C180C2837B01100099151 /* HomeView.swift in Sources */,
-				F81C18102837B28900099151 /* Prewiew.swift in Sources */,
+				F81C18102837B28900099151 /* Preview.swift in Sources */,
 				F81C180E2837B26700099151 /* ResortRowView.swift in Sources */,
 				F81C180A2837AEEF00099151 /* Bundle.swift in Sources */,
 				F81C18122837B6BB00099151 /* WelcomeView.swift in Sources */,

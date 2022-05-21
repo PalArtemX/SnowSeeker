@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ResortView: View {
     let resort: Resort
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     var body: some View {
         ScrollView {
@@ -18,8 +19,18 @@ struct ResortView: View {
                     .scaledToFit()
                 
                 HStack {
-                    ResortDetailsView(resort: resort)
-                    SkiDetailsView(resort: resort)
+                    if horizontalSizeClass == .compact {
+                        VStack(spacing: 10.0) {
+                            ResortDetailsView(resort: resort)
+                        }
+                        VStack(spacing: 10.0) {
+                            SkiDetailsView(resort: resort)
+                        }
+                    } else {
+                        ResortDetailsView(resort: resort)
+                        SkiDetailsView(resort: resort)
+                    }
+                    
                 }
                 .padding()
                 .background(.ultraThinMaterial)
