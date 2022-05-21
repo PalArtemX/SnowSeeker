@@ -10,6 +10,7 @@ import SwiftUI
 struct ResortView: View {
     let resort: Resort
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.dynamicTypeSize) var dynamicTypeSize
     
     var body: some View {
         ScrollView {
@@ -19,7 +20,7 @@ struct ResortView: View {
                     .scaledToFit()
                 
                 HStack {
-                    if horizontalSizeClass == .compact {
+                    if horizontalSizeClass == .compact && dynamicTypeSize > .large {
                         VStack(spacing: 10.0) {
                             ResortDetailsView(resort: resort)
                         }
@@ -34,6 +35,7 @@ struct ResortView: View {
                 }
                 .padding()
                 .background(.ultraThinMaterial)
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
                 
                 Group {
                     Text(resort.description)
@@ -42,8 +44,12 @@ struct ResortView: View {
                     Text("Facilties")
                         .font(.headline)
                     
-                    Text(resort.facilities, format: .list(type: .and))
-                        .padding(.vertical)
+                    HStack {
+                        ForEach(resort.facilityTypes) { facility in
+                            facility.icon
+                                .font(.title2)
+                        }
+                    }
                 }
                 .padding(.horizontal)
             }
